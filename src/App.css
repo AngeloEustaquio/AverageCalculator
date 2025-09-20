@@ -1,0 +1,65 @@
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  background-color: #F2B67A;
+  width:100%;
+}
+
+.Header {
+  background-color:#FFC993;
+}
+aside {
+  color:black;
+  font-size:1.5rem;
+  font-family:sans-serif;
+  padding:5px;
+}
+.main {
+  background: #FFC993;
+  width: clamp(320px, 85%, 480px);
+  display:flex;
+  justify-self:center;
+  margin:5vh;
+  padding: 1rem 0.4rem 1rem;
+  border-radius:8px;
+  
+}
+.subjectTitle {
+  font-size:1.5rem;
+  font-family:sans-serif;
+}
+.subjectGroup,
+.subjectGrade{
+  flex:1;
+  min-width:150px;
+  display:flex;
+  flex-direction:column;
+  padding:0 0.2rem 0;
+  gap:10px;
+}
+input {
+  height:1.5rem;
+  border-radius:5px;
+  border:none;
+  background:transparent;
+  background-color:#ffffff;
+  padding: 0 0.1rem 0;
+  outline:none;
+}
+
+.Group {
+  font-size:1.1rem;
+  font-family:sans-serif;
+  margin:2rem;
+}
+button {
+  width:7rem;
+  height:1.8rem;
+  margin: 0 0 10px;
+  background-color:#cc9e7073;
+  border:none;
+  border-radius:10px;
+}
